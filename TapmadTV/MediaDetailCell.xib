@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MediaDetailCell" id="gTV-IL-0wX" customClass="MediaDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nNM-81-10E">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="110"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zB-9s-vLT">
+                        <rect key="frame" x="8" y="120" width="164" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="VlH-sR-4KB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfX-rW-4KX">
+                        <rect key="frame" x="8" y="141" width="164" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="p9Y-i5-AgF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liveIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Cgv-vR-o9c">
+                        <rect key="frame" x="140" y="0.0" width="40" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="5VW-2i-vQG"/>
+                            <constraint firstAttribute="height" constant="20" id="fci-jE-VKu"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nNM-81-10E" firstAttribute="centerX" secondItem="8zB-9s-vLT" secondAttribute="centerX" id="1K6-HQ-vDy"/>
+                <constraint firstItem="Cgv-vR-o9c" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7I5-S9-lAV"/>
+                <constraint firstAttribute="trailing" secondItem="Cgv-vR-o9c" secondAttribute="trailing" id="SNF-KB-119"/>
+                <constraint firstItem="8zB-9s-vLT" firstAttribute="leading" secondItem="TfX-rW-4KX" secondAttribute="leading" id="UOb-7A-zeY"/>
+                <constraint firstItem="nNM-81-10E" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="WRS-xB-aoP"/>
+                <constraint firstAttribute="trailing" secondItem="nNM-81-10E" secondAttribute="trailing" id="i51-Qm-S5z"/>
+                <constraint firstItem="8zB-9s-vLT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leadingMargin" id="jjR-tS-OAy"/>
+                <constraint firstItem="nNM-81-10E" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ok5-Ju-te6"/>
+                <constraint firstAttribute="bottom" secondItem="TfX-rW-4KX" secondAttribute="bottom" constant="3" id="rhb-w5-Lr8"/>
+                <constraint firstItem="8zB-9s-vLT" firstAttribute="top" secondItem="nNM-81-10E" secondAttribute="bottom" constant="10" id="sU6-YI-AUv"/>
+                <constraint firstItem="8zB-9s-vLT" firstAttribute="trailing" secondItem="TfX-rW-4KX" secondAttribute="trailing" id="tVN-22-BRQ"/>
+                <constraint firstItem="TfX-rW-4KX" firstAttribute="top" secondItem="8zB-9s-vLT" secondAttribute="bottom" constant="1" id="xY4-2z-mtI"/>
+            </constraints>
+            <connections>
+                <outlet property="imgLive" destination="Cgv-vR-o9c" id="aJM-lY-EiR"/>
+                <outlet property="imgViewMedia" destination="nNM-81-10E" id="BQ0-8m-5g2"/>
+                <outlet property="lblDesciption" destination="TfX-rW-4KX" id="8CK-9v-caU"/>
+                <outlet property="lblTitle" destination="8zB-9s-vLT" id="H1S-bR-yw2"/>
+            </connections>
+            <point key="canvasLocation" x="-251" y="-11"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="liveIcon" width="40" height="20"/>
+    </resources>
+</document>

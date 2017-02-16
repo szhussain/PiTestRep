@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520A99FD1E261FBE00354573 /* AVPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 520A99FC1E261FBE00354573 /* AVPlayerVC.m */; };
+		520FFEB31E0BC9DA00CF655F /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520FFEB21E0BC9DA00CF655F /* HomeCollectionViewController.m */; };
+		5211A1451E1E5F4F00662C08 /* MoreMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5211A1431E1E5F4F00662C08 /* MoreMediaCell.m */; };
+		5211A1461E1E5F4F00662C08 /* MoreMediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5211A1441E1E5F4F00662C08 /* MoreMediaCell.xib */; };
+		52140E371E01774F0018AA4E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52140E361E01774F0018AA4E /* PlayViewController.m */; };
+		52140E3A1E01788C0018AA4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52140E381E01788C0018AA4E /* AVFoundation.framework */; };
+		52140E3B1E01788C0018AA4E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52140E391E01788C0018AA4E /* AVKit.framework */; };
+		52140E3F1E01882E0018AA4E /* AFNetworkingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52140E3E1E01882E0018AA4E /* AFNetworkingWrapper.m */; };
+		521492851DF0021000C83BEC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521492841DF0021000C83BEC /* SWRevealViewController.m */; };
+		521492881DF004A700C83BEC /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521492871DF004A700C83BEC /* SidebarTableViewController.m */; };
+		521492951DF0511100C83BEC /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521492941DF0511100C83BEC /* MainCollectionViewController.m */; };
+		5214F7561E0D330600971E7D /* ImageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F74E1E0D330600971E7D /* ImageHeader.m */; };
+		5214F7571E0D330600971E7D /* ImageHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5214F74F1E0D330600971E7D /* ImageHeader.xib */; };
+		5214F75A1E0D330600971E7D /* SVHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F7541E0D330600971E7D /* SVHeader.m */; };
+		5214F75B1E0D330600971E7D /* SVHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5214F7551E0D330600971E7D /* SVHeader.xib */; };
+		5214F76E1E0D611F00971E7D /* SectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F76C1E0D611F00971E7D /* SectionHeader.m */; };
+		5214F76F1E0D611F00971E7D /* SectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5214F76D1E0D611F00971E7D /* SectionHeader.xib */; };
+		5216E6CA1E0A74B900A3114F /* AMTumblrHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216E6C91E0A74B900A3114F /* AMTumblrHud.m */; };
+		5216E6CD1E0AA86A00A3114F /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216E6CC1E0AA86A00A3114F /* Video.m */; };
+		5216E6D01E0AAD1800A3114F /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216E6CF1E0AAD1800A3114F /* Section.m */; };
+		5216E6D31E0AAEDF00A3114F /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5216E6D21E0AAEDF00A3114F /* Category.m */; };
+		521788E11E13A68A00A2EA3F /* MediaDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 521788DF1E13A68A00A2EA3F /* MediaDetailCell.m */; };
+		521788E21E13A68A00A2EA3F /* MediaDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521788E01E13A68A00A2EA3F /* MediaDetailCell.xib */; };
+		521789171E13F5F000A2EA3F /* EmptyMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 521789151E13F5F000A2EA3F /* EmptyMediaCell.m */; };
+		521789181E13F5F000A2EA3F /* EmptyMediaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521789161E13F5F000A2EA3F /* EmptyMediaCell.xib */; };
+		5217891C1E1402A700A2EA3F /* MediaDetailsHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217891A1E1402A700A2EA3F /* MediaDetailsHeader.m */; };
+		5217891D1E1402A700A2EA3F /* MediaDetailsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5217891B1E1402A700A2EA3F /* MediaDetailsHeader.xib */; };
+		5218E6DD1E14F7CA0096FC5A /* SectionHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5218E6DB1E14F7CA0096FC5A /* SectionHeaderReusableView.m */; };
+		5218E6DE1E14F7CA0096FC5A /* SectionHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5218E6DC1E14F7CA0096FC5A /* SectionHeaderReusableView.xib */; };
+		521E8D461E2512CC00BCDAE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 521E8D451E2512CC00BCDAE2 /* GoogleService-Info.plist */; };
+		521FBFEF1DF6FF3600200846 /* PlayCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521FBFEE1DF6FF3600200846 /* PlayCollectionViewController.m */; };
+		52259EBA1E1A6619008D732C /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52259EB91E1A6619008D732C /* AboutTableViewController.m */; };
+		52259EBF1E1A85C7008D732C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52259EBB1E1A85C7008D732C /* Bolts.framework */; };
+		52259EC01E1A85C7008D732C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52259EBC1E1A85C7008D732C /* FBSDKCoreKit.framework */; };
+		52259EC11E1A85C7008D732C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52259EBD1E1A85C7008D732C /* FBSDKLoginKit.framework */; };
+		52259EC21E1A85C7008D732C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52259EBE1E1A85C7008D732C /* FBSDKShareKit.framework */; };
+		52272D1D1E02B3F7007642B2 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52272D1C1E02B3F7007642B2 /* libJSONModel.a */; };
+		52272D241E02DB6B007642B2 /* MoreMediaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52272D231E02DB6B007642B2 /* MoreMediaTableViewController.m */; };
+		52291A691E239F4400C39CD4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52291A681E239F4400C39CD4 /* MessageUI.framework */; };
+		5240B4831E489D18005A9061 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5240B4821E489D18005A9061 /* UserNotifications.framework */; };
+		524B10CE1E04154500E8BDC4 /* ChannelCategories+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10B71E04154500E8BDC4 /* ChannelCategories+CoreDataClass.m */; };
+		524B10CF1E04154500E8BDC4 /* ChannelCategories+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10B91E04154500E8BDC4 /* ChannelCategories+CoreDataProperties.m */; };
+		524B10D01E04154500E8BDC4 /* Channel+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10BB1E04154500E8BDC4 /* Channel+CoreDataClass.m */; };
+		524B10D11E04154500E8BDC4 /* Channel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10BD1E04154500E8BDC4 /* Channel+CoreDataProperties.m */; };
+		524B10D21E04154500E8BDC4 /* MovieCategories+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10BF1E04154500E8BDC4 /* MovieCategories+CoreDataClass.m */; };
+		524B10D31E04154500E8BDC4 /* MovieCategories+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10C11E04154500E8BDC4 /* MovieCategories+CoreDataProperties.m */; };
+		524B10D41E04154500E8BDC4 /* VOD+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10C31E04154500E8BDC4 /* VOD+CoreDataClass.m */; };
+		524B10D51E04154500E8BDC4 /* VOD+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10C51E04154500E8BDC4 /* VOD+CoreDataProperties.m */; };
+		524B10D61E04154500E8BDC4 /* VODCategories+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10C71E04154500E8BDC4 /* VODCategories+CoreDataClass.m */; };
+		524B10D71E04154500E8BDC4 /* VODCategories+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10C91E04154500E8BDC4 /* VODCategories+CoreDataProperties.m */; };
+		524B10D81E04154500E8BDC4 /* Movie+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10CB1E04154500E8BDC4 /* Movie+CoreDataClass.m */; };
+		524B10D91E04154500E8BDC4 /* Movie+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10CD1E04154500E8BDC4 /* Movie+CoreDataProperties.m */; };
+		524B10E21E04255200E8BDC4 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B10E11E04255200E8BDC4 /* Utilities.m */; };
+		52BDEE011DE5C25000D80987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEE001DE5C25000D80987 /* main.m */; };
+		52BDEE041DE5C25000D80987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEE031DE5C25000D80987 /* AppDelegate.m */; };
+		52BDEE0A1DE5C25000D80987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BDEE081DE5C25000D80987 /* Main.storyboard */; };
+		52BDEE0F1DE5C25000D80987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BDEE0E1DE5C25000D80987 /* Assets.xcassets */; };
+		52BDEE121DE5C25000D80987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BDEE101DE5C25000D80987 /* LaunchScreen.storyboard */; };
+		52BDEE1D1DE5C25100D80987 /* TapmadTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEE1C1DE5C25100D80987 /* TapmadTVTests.m */; };
+		52BDEE281DE5C25100D80987 /* TapmadTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEE271DE5C25100D80987 /* TapmadTVUITests.m */; };
+		52E13C9C1DEDA07000F3CFF5 /* DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 52E13C9B1DEDA07000F3CFF5 /* DataModel.xcdatamodel */; };
+		52E13CB51DEDAF4A00F3CFF5 /* RestKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 522EBAFD1DED6FBE0094DEC8 /* RestKitManager.m */; };
+		B8402A4D2BF3830B3B17E056 /* libPods-TapmadTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CFF879F220F978C699D60B /* libPods-TapmadTV.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BDEE191DE5C25000D80987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BDEDF41DE5C25000D80987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BDEDFB1DE5C25000D80987;
+			remoteInfo = TapmadTV;
+		};
+		52BDEE241DE5C25100D80987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BDEDF41DE5C25000D80987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BDEDFB1DE5C25000D80987;
+			remoteInfo = TapmadTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520A99FB1E261FBE00354573 /* AVPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerVC.h; sourceTree = "<group>"; };
+		520A99FC1E261FBE00354573 /* AVPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerVC.m; sourceTree = "<group>"; };
+		520FFEB11E0BC9DA00CF655F /* HomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewController.h; sourceTree = "<group>"; };
+		520FFEB21E0BC9DA00CF655F /* HomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewController.m; sourceTree = "<group>"; };
+		5211A1421E1E5F4F00662C08 /* MoreMediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreMediaCell.h; sourceTree = "<group>"; };
+		5211A1431E1E5F4F00662C08 /* MoreMediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreMediaCell.m; sourceTree = "<group>"; };
+		5211A1441E1E5F4F00662C08 /* MoreMediaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreMediaCell.xib; sourceTree = "<group>"; };
+		52140E351E01774F0018AA4E /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		52140E361E01774F0018AA4E /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		52140E381E01788C0018AA4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52140E391E01788C0018AA4E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		52140E3D1E01882E0018AA4E /* AFNetworkingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkingWrapper.h; path = AFNetworkingWrapper/AFNetworkingWrapper.h; sourceTree = "<group>"; };
+		52140E3E1E01882E0018AA4E /* AFNetworkingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkingWrapper.m; path = AFNetworkingWrapper/AFNetworkingWrapper.m; sourceTree = "<group>"; };
+		521492831DF0021000C83BEC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		521492841DF0021000C83BEC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		521492861DF004A700C83BEC /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
+		521492871DF004A700C83BEC /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+		521492931DF0511100C83BEC /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		521492941DF0511100C83BEC /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
+		5214F74D1E0D330600971E7D /* ImageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageHeader.h; path = HeaderViews/ImageHeader.h; sourceTree = "<group>"; };
+		5214F74E1E0D330600971E7D /* ImageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageHeader.m; path = HeaderViews/ImageHeader.m; sourceTree = "<group>"; };
+		5214F74F1E0D330600971E7D /* ImageHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageHeader.xib; path = HeaderViews/ImageHeader.xib; sourceTree = "<group>"; };
+		5214F7531E0D330600971E7D /* SVHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVHeader.h; path = HeaderViews/SVHeader.h; sourceTree = "<group>"; };
+		5214F7541E0D330600971E7D /* SVHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVHeader.m; path = HeaderViews/SVHeader.m; sourceTree = "<group>"; };
+		5214F7551E0D330600971E7D /* SVHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SVHeader.xib; path = HeaderViews/SVHeader.xib; sourceTree = "<group>"; };
+		5214F76B1E0D611F00971E7D /* SectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionHeader.h; path = HeaderViews/SectionHeader.h; sourceTree = "<group>"; };
+		5214F76C1E0D611F00971E7D /* SectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionHeader.m; path = HeaderViews/SectionHeader.m; sourceTree = "<group>"; };
+		5214F76D1E0D611F00971E7D /* SectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SectionHeader.xib; path = HeaderViews/SectionHeader.xib; sourceTree = "<group>"; };
+		5216E6C81E0A74B900A3114F /* AMTumblrHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMTumblrHud.h; path = AMTumblrHud/AMTumblrHud.h; sourceTree = "<group>"; };
+		5216E6C91E0A74B900A3114F /* AMTumblrHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMTumblrHud.m; path = AMTumblrHud/AMTumblrHud.m; sourceTree = "<group>"; };
+		5216E6CB1E0AA86A00A3114F /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		5216E6CC1E0AA86A00A3114F /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		5216E6CE1E0AAD1800A3114F /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		5216E6CF1E0AAD1800A3114F /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		5216E6D11E0AAEDF00A3114F /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		5216E6D21E0AAEDF00A3114F /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		521788DE1E13A68A00A2EA3F /* MediaDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDetailCell.h; sourceTree = "<group>"; };
+		521788DF1E13A68A00A2EA3F /* MediaDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaDetailCell.m; sourceTree = "<group>"; };
+		521788E01E13A68A00A2EA3F /* MediaDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaDetailCell.xib; sourceTree = "<group>"; };
+		521789141E13F5F000A2EA3F /* EmptyMediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyMediaCell.h; sourceTree = "<group>"; };
+		521789151E13F5F000A2EA3F /* EmptyMediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyMediaCell.m; sourceTree = "<group>"; };
+		521789161E13F5F000A2EA3F /* EmptyMediaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyMediaCell.xib; sourceTree = "<group>"; };
+		521789191E1402A700A2EA3F /* MediaDetailsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDetailsHeader.h; sourceTree = "<group>"; };
+		5217891A1E1402A700A2EA3F /* MediaDetailsHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaDetailsHeader.m; sourceTree = "<group>"; };
+		5217891B1E1402A700A2EA3F /* MediaDetailsHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaDetailsHeader.xib; sourceTree = "<group>"; };
+		5218E6DA1E14F7CA0096FC5A /* SectionHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderReusableView.h; sourceTree = "<group>"; };
+		5218E6DB1E14F7CA0096FC5A /* SectionHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderReusableView.m; sourceTree = "<group>"; };
+		5218E6DC1E14F7CA0096FC5A /* SectionHeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderReusableView.xib; sourceTree = "<group>"; };
+		5219193F1DFACBEE00A967B2 /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInteractiveMediaAds.framework; path = TapmadTV/GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
+		521E8D451E2512CC00BCDAE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		521FBFED1DF6FF3600200846 /* PlayCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayCollectionViewController.h; sourceTree = "<group>"; };
+		521FBFEE1DF6FF3600200846 /* PlayCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayCollectionViewController.m; sourceTree = "<group>"; };
+		52259EB81E1A6619008D732C /* AboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutTableViewController.h; sourceTree = "<group>"; };
+		52259EB91E1A6619008D732C /* AboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutTableViewController.m; sourceTree = "<group>"; };
+		52259EBB1E1A85C7008D732C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4.18.0/Bolts.framework"; sourceTree = "<group>"; };
+		52259EBC1E1A85C7008D732C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		52259EBD1E1A85C7008D732C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		52259EBE1E1A85C7008D732C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4.18.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		52272D1C1E02B3F7007642B2 /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJSONModel.a; path = "../../../../Library/Developer/Xcode/DerivedData/TapmadTV-bqowjestxlpksyazfkqmdnzffrag/Build/Products/Debug-iphonesimulator/JSONModel/libJSONModel.a"; sourceTree = "<group>"; };
+		52272D221E02DB6B007642B2 /* MoreMediaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreMediaTableViewController.h; sourceTree = "<group>"; };
+		52272D231E02DB6B007642B2 /* MoreMediaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreMediaTableViewController.m; sourceTree = "<group>"; };
+		52291A681E239F4400C39CD4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		522EBAFB1DED6DDB0094DEC8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		522EBAFC1DED6FBE0094DEC8 /* RestKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestKitManager.h; sourceTree = "<group>"; };
+		522EBAFD1DED6FBE0094DEC8 /* RestKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestKitManager.m; sourceTree = "<group>"; };
+		5240B4821E489D18005A9061 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		524B10B61E04154500E8BDC4 /* ChannelCategories+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChannelCategories+CoreDataClass.h"; sourceTree = "<group>"; };
+		524B10B71E04154500E8BDC4 /* ChannelCategories+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChannelCategories+CoreDataClass.m"; sourceTree = "<group>"; };
+		524B10B81E04154500E8BDC4 /* ChannelCategories+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChannelCategories+CoreDataProperties.h"; sourceTree = "<group>"; };
+		524B10B91E04154500E8BDC4 /* ChannelCategories+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChannelCategories+CoreDataProperties.m"; sourceTree = "<group>"; };
+		524B10BA1E04154500E8BDC4 /* Channel+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Channel+CoreDataClass.h"; sourceTree = "<group>"; };
+		524B10BB1E04154500E8BDC4 /* Channel+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Channel+CoreDataClass.m"; sourceTree = "<group>"; };
+		524B10BC1E04154500E8BDC4 /* Channel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Channel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		524B10BD1E04154500E8BDC4 /* Channel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Channel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		524B10BE1E04154500E8BDC4 /* MovieCategories+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MovieCategories+CoreDataClass.h"; sourceTree = "<group>"; };
+		524B10BF1E04154500E8BDC4 /* MovieCategories+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MovieCategories+CoreDataClass.m"; sourceTree = "<group>"; };
+		524B10C01E04154500E8BDC4 /* MovieCategories+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MovieCategories+CoreDataProperties.h"; sourceTree = "<group>"; };
+		524B10C11E04154500E8BDC4 /* MovieCategories+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MovieCategories+CoreDataProperties.m"; sourceTree = "<group>"; };
+		524B10C21E04154500E8BDC4 /* VOD+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VOD+CoreDataClass.h"; sourceTree = "<group>"; };
+		524B10C31E04154500E8BDC4 /* VOD+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VOD+CoreDataClass.m"; sourceTree = "<group>"; };
+		524B10C41E04154500E8BDC4 /* VOD+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VOD+CoreDataProperties.h"; sourceTree = "<group>"; };
+		524B10C51E04154500E8BDC4 /* VOD+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VOD+CoreDataProperties.m"; sourceTree = "<group>"; };
+		524B10C61E04154500E8BDC4 /* VODCategories+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VODCategories+CoreDataClass.h"; sourceTree = "<group>"; };
+		524B10C71E04154500E8BDC4 /* VODCategories+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VODCategories+CoreDataClass.m"; sourceTree = "<group>"; };
+		524B10C81E04154500E8BDC4 /* VODCategories+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VODCategories+CoreDataProperties.h"; sourceTree = "<group>"; };
+		524B10C91E04154500E8BDC4 /* VODCategories+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VODCategories+CoreDataProperties.m"; sourceTree = "<group>"; };
+		524B10CA1E04154500E8BDC4 /* Movie+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Movie+CoreDataClass.h"; sourceTree = "<group>"; };
+		524B10CB1E04154500E8BDC4 /* Movie+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Movie+CoreDataClass.m"; sourceTree = "<group>"; };
+		524B10CC1E04154500E8BDC4 /* Movie+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Movie+CoreDataProperties.h"; sourceTree = "<group>"; };
+		524B10CD1E04154500E8BDC4 /* Movie+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Movie+CoreDataProperties.m"; sourceTree = "<group>"; };
+		524B10E11E04255200E8BDC4 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		524B10E31E04256B00E8BDC4 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		525FC6931E44998500AF5AEA /* TapmadTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TapmadTV.entitlements; sourceTree = "<group>"; };
+		52BDEDFC1DE5C25000D80987 /* TapmadTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapmadTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDEE001DE5C25000D80987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52BDEE021DE5C25000D80987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52BDEE031DE5C25000D80987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52BDEE091DE5C25000D80987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BDEE0E1DE5C25000D80987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52BDEE111DE5C25000D80987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52BDEE131DE5C25000D80987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BDEE181DE5C25000D80987 /* TapmadTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapmadTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDEE1C1DE5C25100D80987 /* TapmadTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapmadTVTests.m; sourceTree = "<group>"; };
+		52BDEE1E1DE5C25100D80987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BDEE231DE5C25100D80987 /* TapmadTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapmadTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BDEE271DE5C25100D80987 /* TapmadTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapmadTVUITests.m; sourceTree = "<group>"; };
+		52BDEE291DE5C25100D80987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E13C9B1DEDA07000F3CFF5 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		D3CFF879F220F978C699D60B /* libPods-TapmadTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TapmadTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C546F52F1359589F49D598 /* Pods-TapmadTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapmadTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapmadTV/Pods-TapmadTV.debug.xcconfig"; sourceTree = "<group>"; };
+		DBFD44F7897AAB5C6DEB9E71 /* Pods-TapmadTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapmadTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapmadTV/Pods-TapmadTV.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BDEDF91DE5C25000D80987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5240B4831E489D18005A9061 /* UserNotifications.framework in Frameworks */,
+				52291A691E239F4400C39CD4 /* MessageUI.framework in Frameworks */,
+				52272D1D1E02B3F7007642B2 /* libJSONModel.a in Frameworks */,
+				52140E3A1E01788C0018AA4E /* AVFoundation.framework in Frameworks */,
+				52140E3B1E01788C0018AA4E /* AVKit.framework in Frameworks */,
+				B8402A4D2BF3830B3B17E056 /* libPods-TapmadTV.a in Frameworks */,
+				52259EBF1E1A85C7008D732C /* Bolts.framework in Frameworks */,
+				52259EC01E1A85C7008D732C /* FBSDKCoreKit.framework in Frameworks */,
+				52259EC11E1A85C7008D732C /* FBSDKLoginKit.framework in Frameworks */,
+				52259EC21E1A85C7008D732C /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDEE151DE5C25000D80987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDEE201DE5C25100D80987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082D6ACF82376656F09F8831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5240B4821E489D18005A9061 /* UserNotifications.framework */,
+				52291A681E239F4400C39CD4 /* MessageUI.framework */,
+				52259EBB1E1A85C7008D732C /* Bolts.framework */,
+				52259EBC1E1A85C7008D732C /* FBSDKCoreKit.framework */,
+				52259EBD1E1A85C7008D732C /* FBSDKLoginKit.framework */,
+				52259EBE1E1A85C7008D732C /* FBSDKShareKit.framework */,
+				52272D1C1E02B3F7007642B2 /* libJSONModel.a */,
+				52140E381E01788C0018AA4E /* AVFoundation.framework */,
+				52140E391E01788C0018AA4E /* AVKit.framework */,
+				5219193F1DFACBEE00A967B2 /* GoogleInteractiveMediaAds.framework */,
+				D3CFF879F220F978C699D60B /* libPods-TapmadTV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52140E341E0177090018AA4E /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				520FFEB11E0BC9DA00CF655F /* HomeCollectionViewController.h */,
+				520FFEB21E0BC9DA00CF655F /* HomeCollectionViewController.m */,
+				521492931DF0511100C83BEC /* MainCollectionViewController.h */,
+				521492941DF0511100C83BEC /* MainCollectionViewController.m */,
+				521FBFED1DF6FF3600200846 /* PlayCollectionViewController.h */,
+				521FBFEE1DF6FF3600200846 /* PlayCollectionViewController.m */,
+			);
+			name = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		52140E3C1E0188070018AA4E /* AFNetworkingWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				52140E3D1E01882E0018AA4E /* AFNetworkingWrapper.h */,
+				52140E3E1E01882E0018AA4E /* AFNetworkingWrapper.m */,
+			);
+			name = AFNetworkingWrapper;
+			sourceTree = "<group>";
+		};
+		521492821DF001FF00C83BEC /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				521492831DF0021000C83BEC /* SWRevealViewController.h */,
+				521492841DF0021000C83BEC /* SWRevealViewController.m */,
+				521492861DF004A700C83BEC /* SidebarTableViewController.h */,
+				521492871DF004A700C83BEC /* SidebarTableViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		521492901DF00EAE00C83BEC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52140E351E01774F0018AA4E /* PlayViewController.h */,
+				52140E361E01774F0018AA4E /* PlayViewController.m */,
+				520A99FB1E261FBE00354573 /* AVPlayerVC.h */,
+				520A99FC1E261FBE00354573 /* AVPlayerVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		521492911DF0132000C83BEC /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				522EBAFA1DED6DA90094DEC8 /* RestKitManager */,
+				52140E3C1E0188070018AA4E /* AFNetworkingWrapper */,
+				5216E6C41E0A747500A3114F /* AMTumblrHud */,
+				524B10DA1E0424BB00E8BDC4 /* Utilities */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
+		5214929A1DF05A1100C83BEC /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				521788DE1E13A68A00A2EA3F /* MediaDetailCell.h */,
+				521788DF1E13A68A00A2EA3F /* MediaDetailCell.m */,
+				521788E01E13A68A00A2EA3F /* MediaDetailCell.xib */,
+				521789141E13F5F000A2EA3F /* EmptyMediaCell.h */,
+				521789151E13F5F000A2EA3F /* EmptyMediaCell.m */,
+				521789161E13F5F000A2EA3F /* EmptyMediaCell.xib */,
+				5211A1421E1E5F4F00662C08 /* MoreMediaCell.h */,
+				5211A1431E1E5F4F00662C08 /* MoreMediaCell.m */,
+				5211A1441E1E5F4F00662C08 /* MoreMediaCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		5214F74C1E0D32F700971E7D /* HeaderViews */ = {
+			isa = PBXGroup;
+			children = (
+				5214F74D1E0D330600971E7D /* ImageHeader.h */,
+				5214F74E1E0D330600971E7D /* ImageHeader.m */,
+				5214F74F1E0D330600971E7D /* ImageHeader.xib */,
+				5214F7531E0D330600971E7D /* SVHeader.h */,
+				5214F7541E0D330600971E7D /* SVHeader.m */,
+				5214F7551E0D330600971E7D /* SVHeader.xib */,
+				5214F76B1E0D611F00971E7D /* SectionHeader.h */,
+				5214F76C1E0D611F00971E7D /* SectionHeader.m */,
+				5214F76D1E0D611F00971E7D /* SectionHeader.xib */,
+				521789191E1402A700A2EA3F /* MediaDetailsHeader.h */,
+				5217891A1E1402A700A2EA3F /* MediaDetailsHeader.m */,
+				5217891B1E1402A700A2EA3F /* MediaDetailsHeader.xib */,
+				5218E6DA1E14F7CA0096FC5A /* SectionHeaderReusableView.h */,
+				5218E6DB1E14F7CA0096FC5A /* SectionHeaderReusableView.m */,
+				5218E6DC1E14F7CA0096FC5A /* SectionHeaderReusableView.xib */,
+			);
+			name = HeaderViews;
+			sourceTree = "<group>";
+		};
+		5216E6C41E0A747500A3114F /* AMTumblrHud */ = {
+			isa = PBXGroup;
+			children = (
+				5216E6C81E0A74B900A3114F /* AMTumblrHud.h */,
+				5216E6C91E0A74B900A3114F /* AMTumblrHud.m */,
+			);
+			name = AMTumblrHud;
+			sourceTree = "<group>";
+		};
+		52272D1E1E02C953007642B2 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52272D221E02DB6B007642B2 /* MoreMediaTableViewController.h */,
+				52272D231E02DB6B007642B2 /* MoreMediaTableViewController.m */,
+				52259EB81E1A6619008D732C /* AboutTableViewController.h */,
+				52259EB91E1A6619008D732C /* AboutTableViewController.m */,
+			);
+			name = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		522EBAFA1DED6DA90094DEC8 /* RestKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				522EBAFC1DED6FBE0094DEC8 /* RestKitManager.h */,
+				522EBAFD1DED6FBE0094DEC8 /* RestKitManager.m */,
+			);
+			name = RestKitManager;
+			sourceTree = "<group>";
+		};
+		524B10DA1E0424BB00E8BDC4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				524B10E31E04256B00E8BDC4 /* Utilities.h */,
+				524B10E11E04255200E8BDC4 /* Utilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		52BDEDF31DE5C25000D80987 = {
+			isa = PBXGroup;
+			children = (
+				52BDEDFE1DE5C25000D80987 /* TapmadTV */,
+				52BDEE1B1DE5C25000D80987 /* TapmadTVTests */,
+				52BDEE261DE5C25100D80987 /* TapmadTVUITests */,
+				52BDEDFD1DE5C25000D80987 /* Products */,
+				A7F2FE2C2C1BD033193A6438 /* Pods */,
+				082D6ACF82376656F09F8831 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52BDEDFD1DE5C25000D80987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BDEDFC1DE5C25000D80987 /* TapmadTV.app */,
+				52BDEE181DE5C25000D80987 /* TapmadTVTests.xctest */,
+				52BDEE231DE5C25100D80987 /* TapmadTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BDEDFE1DE5C25000D80987 /* TapmadTV */ = {
+			isa = PBXGroup;
+			children = (
+				525FC6931E44998500AF5AEA /* TapmadTV.entitlements */,
+				52140E341E0177090018AA4E /* CollectionViewController */,
+				521492901DF00EAE00C83BEC /* ViewControllers */,
+				52272D1E1E02C953007642B2 /* TableViewControllers */,
+				521492821DF001FF00C83BEC /* SWRevealViewController */,
+				5214F74C1E0D32F700971E7D /* HeaderViews */,
+				5214929A1DF05A1100C83BEC /* CustomCells */,
+				521492911DF0132000C83BEC /* HelperClasses */,
+				52BDEE021DE5C25000D80987 /* AppDelegate.h */,
+				52BDEE031DE5C25000D80987 /* AppDelegate.m */,
+				52BDEE3B1DE5C32C00D80987 /* DataModels */,
+				52E13C9B1DEDA07000F3CFF5 /* DataModel.xcdatamodel */,
+				52BDEE0E1DE5C25000D80987 /* Assets.xcassets */,
+				52BDEE081DE5C25000D80987 /* Main.storyboard */,
+				52BDEE101DE5C25000D80987 /* LaunchScreen.storyboard */,
+				522EBAFB1DED6DDB0094DEC8 /* Constants.h */,
+				521E8D451E2512CC00BCDAE2 /* GoogleService-Info.plist */,
+				52BDEE131DE5C25000D80987 /* Info.plist */,
+				52BDEDFF1DE5C25000D80987 /* Supporting Files */,
+			);
+			path = TapmadTV;
+			sourceTree = "<group>";
+		};
+		52BDEDFF1DE5C25000D80987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BDEE001DE5C25000D80987 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52BDEE1B1DE5C25000D80987 /* TapmadTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				52BDEE1C1DE5C25100D80987 /* TapmadTVTests.m */,
+				52BDEE1E1DE5C25100D80987 /* Info.plist */,
+			);
+			path = TapmadTVTests;
+			sourceTree = "<group>";
+		};
+		52BDEE261DE5C25100D80987 /* TapmadTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52BDEE271DE5C25100D80987 /* TapmadTVUITests.m */,
+				52BDEE291DE5C25100D80987 /* Info.plist */,
+			);
+			path = TapmadTVUITests;
+			sourceTree = "<group>";
+		};
+		52BDEE3B1DE5C32C00D80987 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				524B10B61E04154500E8BDC4 /* ChannelCategories+CoreDataClass.h */,
+				524B10B71E04154500E8BDC4 /* ChannelCategories+CoreDataClass.m */,
+				524B10B81E04154500E8BDC4 /* ChannelCategories+CoreDataProperties.h */,
+				524B10B91E04154500E8BDC4 /* ChannelCategories+CoreDataProperties.m */,
+				524B10BA1E04154500E8BDC4 /* Channel+CoreDataClass.h */,
+				524B10BB1E04154500E8BDC4 /* Channel+CoreDataClass.m */,
+				524B10BC1E04154500E8BDC4 /* Channel+CoreDataProperties.h */,
+				524B10BD1E04154500E8BDC4 /* Channel+CoreDataProperties.m */,
+				524B10BE1E04154500E8BDC4 /* MovieCategories+CoreDataClass.h */,
+				524B10BF1E04154500E8BDC4 /* MovieCategories+CoreDataClass.m */,
+				524B10C01E04154500E8BDC4 /* MovieCategories+CoreDataProperties.h */,
+				524B10C11E04154500E8BDC4 /* MovieCategories+CoreDataProperties.m */,
+				524B10C21E04154500E8BDC4 /* VOD+CoreDataClass.h */,
+				524B10C31E04154500E8BDC4 /* VOD+CoreDataClass.m */,
+				524B10C41E04154500E8BDC4 /* VOD+CoreDataProperties.h */,
+				524B10C51E04154500E8BDC4 /* VOD+CoreDataProperties.m */,
+				524B10C61E04154500E8BDC4 /* VODCategories+CoreDataClass.h */,
+				524B10C71E04154500E8BDC4 /* VODCategories+CoreDataClass.m */,
+				524B10C81E04154500E8BDC4 /* VODCategories+CoreDataProperties.h */,
+				524B10C91E04154500E8BDC4 /* VODCategories+CoreDataProperties.m */,
+				524B10CA1E04154500E8BDC4 /* Movie+CoreDataClass.h */,
+				524B10CB1E04154500E8BDC4 /* Movie+CoreDataClass.m */,
+				524B10CC1E04154500E8BDC4 /* Movie+CoreDataProperties.h */,
+				524B10CD1E04154500E8BDC4 /* Movie+CoreDataProperties.m */,
+				5216E6D11E0AAEDF00A3114F /* Category.h */,
+				5216E6D21E0AAEDF00A3114F /* Category.m */,
+				5216E6CE1E0AAD1800A3114F /* Section.h */,
+				5216E6CF1E0AAD1800A3114F /* Section.m */,
+				5216E6CB1E0AA86A00A3114F /* Video.h */,
+				5216E6CC1E0AA86A00A3114F /* Video.m */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		A7F2FE2C2C1BD033193A6438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5C546F52F1359589F49D598 /* Pods-TapmadTV.debug.xcconfig */,
+				DBFD44F7897AAB5C6DEB9E71 /* Pods-TapmadTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BDEDFB1DE5C25000D80987 /* TapmadTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDEE2C1DE5C25100D80987 /* Build configuration list for PBXNativeTarget "TapmadTV" */;
+			buildPhases = (
+				E9259D46CB8C03FE44F2D32F /* [CP] Check Pods Manifest.lock */,
+				52BDEDF81DE5C25000D80987 /* Sources */,
+				52BDEDF91DE5C25000D80987 /* Frameworks */,
+				52BDEDFA1DE5C25000D80987 /* Resources */,
+				144570E3C2D15D8CA601B962 /* [CP] Embed Pods Frameworks */,
+				59320942A49668AE871059D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapmadTV;
+			productName = TapmadTV;
+			productReference = 52BDEDFC1DE5C25000D80987 /* TapmadTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52BDEE171DE5C25000D80987 /* TapmadTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDEE2F1DE5C25100D80987 /* Build configuration list for PBXNativeTarget "TapmadTVTests" */;
+			buildPhases = (
+				52BDEE141DE5C25000D80987 /* Sources */,
+				52BDEE151DE5C25000D80987 /* Frameworks */,
+				52BDEE161DE5C25000D80987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BDEE1A1DE5C25000D80987 /* PBXTargetDependency */,
+			);
+			name = TapmadTVTests;
+			productName = TapmadTVTests;
+			productReference = 52BDEE181DE5C25000D80987 /* TapmadTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52BDEE221DE5C25100D80987 /* TapmadTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BDEE321DE5C25100D80987 /* Build configuration list for PBXNativeTarget "TapmadTVUITests" */;
+			buildPhases = (
+				52BDEE1F1DE5C25100D80987 /* Sources */,
+				52BDEE201DE5C25100D80987 /* Frameworks */,
+				52BDEE211DE5C25100D80987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BDEE251DE5C25100D80987 /* PBXTargetDependency */,
+			);
+			name = TapmadTVUITests;
+			productName = TapmadTVUITests;
+			productReference = 52BDEE231DE5C25100D80987 /* TapmadTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BDEDF41DE5C25000D80987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = pitv;
+				TargetAttributes = {
+					52BDEDFB1DE5C25000D80987 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3R96S387P3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					52BDEE171DE5C25000D80987 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52BDEDFB1DE5C25000D80987;
+					};
+					52BDEE221DE5C25100D80987 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52BDEDFB1DE5C25000D80987;
+					};
+				};
+			};
+			buildConfigurationList = 52BDEDF71DE5C25000D80987 /* Build configuration list for PBXProject "TapmadTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BDEDF31DE5C25000D80987;
+			productRefGroup = 52BDEDFD1DE5C25000D80987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BDEDFB1DE5C25000D80987 /* TapmadTV */,
+				52BDEE171DE5C25000D80987 /* TapmadTVTests */,
+				52BDEE221DE5C25100D80987 /* TapmadTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BDEDFA1DE5C25000D80987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5214F76F1E0D611F00971E7D /* SectionHeader.xib in Resources */,
+				52BDEE121DE5C25000D80987 /* LaunchScreen.storyboard in Resources */,
+				5218E6DE1E14F7CA0096FC5A /* SectionHeaderReusableView.xib in Resources */,
+				52BDEE0F1DE5C25000D80987 /* Assets.xcassets in Resources */,
+				52BDEE0A1DE5C25000D80987 /* Main.storyboard in Resources */,
+				521E8D461E2512CC00BCDAE2 /* GoogleService-Info.plist in Resources */,
+				5217891D1E1402A700A2EA3F /* MediaDetailsHeader.xib in Resources */,
+				5214F7571E0D330600971E7D /* ImageHeader.xib in Resources */,
+				521789181E13F5F000A2EA3F /* EmptyMediaCell.xib in Resources */,
+				5211A1461E1E5F4F00662C08 /* MoreMediaCell.xib in Resources */,
+				5214F75B1E0D330600971E7D /* SVHeader.xib in Resources */,
+				521788E21E13A68A00A2EA3F /* MediaDetailCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDEE161DE5C25000D80987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDEE211DE5C25100D80987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144570E3C2D15D8CA601B962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapmadTV/Pods-TapmadTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59320942A49668AE871059D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapmadTV/Pods-TapmadTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9259D46CB8C03FE44F2D32F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BDEDF81DE5C25000D80987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524B10D31E04154500E8BDC4 /* MovieCategories+CoreDataProperties.m in Sources */,
+				524B10D21E04154500E8BDC4 /* MovieCategories+CoreDataClass.m in Sources */,
+				52272D241E02DB6B007642B2 /* MoreMediaTableViewController.m in Sources */,
+				524B10D51E04154500E8BDC4 /* VOD+CoreDataProperties.m in Sources */,
+				524B10CE1E04154500E8BDC4 /* ChannelCategories+CoreDataClass.m in Sources */,
+				5217891C1E1402A700A2EA3F /* MediaDetailsHeader.m in Sources */,
+				52E13CB51DEDAF4A00F3CFF5 /* RestKitManager.m in Sources */,
+				52259EBA1E1A6619008D732C /* AboutTableViewController.m in Sources */,
+				521788E11E13A68A00A2EA3F /* MediaDetailCell.m in Sources */,
+				520FFEB31E0BC9DA00CF655F /* HomeCollectionViewController.m in Sources */,
+				52E13C9C1DEDA07000F3CFF5 /* DataModel.xcdatamodel in Sources */,
+				524B10D41E04154500E8BDC4 /* VOD+CoreDataClass.m in Sources */,
+				5216E6D01E0AAD1800A3114F /* Section.m in Sources */,
+				524B10D71E04154500E8BDC4 /* VODCategories+CoreDataProperties.m in Sources */,
+				521492881DF004A700C83BEC /* SidebarTableViewController.m in Sources */,
+				52140E3F1E01882E0018AA4E /* AFNetworkingWrapper.m in Sources */,
+				524B10D11E04154500E8BDC4 /* Channel+CoreDataProperties.m in Sources */,
+				5216E6D31E0AAEDF00A3114F /* Category.m in Sources */,
+				5214F7561E0D330600971E7D /* ImageHeader.m in Sources */,
+				5211A1451E1E5F4F00662C08 /* MoreMediaCell.m in Sources */,
+				524B10D81E04154500E8BDC4 /* Movie+CoreDataClass.m in Sources */,
+				5216E6CD1E0AA86A00A3114F /* Video.m in Sources */,
+				524B10D91E04154500E8BDC4 /* Movie+CoreDataProperties.m in Sources */,
+				520A99FD1E261FBE00354573 /* AVPlayerVC.m in Sources */,
+				52BDEE041DE5C25000D80987 /* AppDelegate.m in Sources */,
+				524B10CF1E04154500E8BDC4 /* ChannelCategories+CoreDataProperties.m in Sources */,
+				5218E6DD1E14F7CA0096FC5A /* SectionHeaderReusableView.m in Sources */,
+				521789171E13F5F000A2EA3F /* EmptyMediaCell.m in Sources */,
+				5214F76E1E0D611F00971E7D /* SectionHeader.m in Sources */,
+				52140E371E01774F0018AA4E /* PlayViewController.m in Sources */,
+				52BDEE011DE5C25000D80987 /* main.m in Sources */,
+				521492851DF0021000C83BEC /* SWRevealViewController.m in Sources */,
+				5214F75A1E0D330600971E7D /* SVHeader.m in Sources */,
+				521FBFEF1DF6FF3600200846 /* PlayCollectionViewController.m in Sources */,
+				521492951DF0511100C83BEC /* MainCollectionViewController.m in Sources */,
+				524B10D01E04154500E8BDC4 /* Channel+CoreDataClass.m in Sources */,
+				524B10E21E04255200E8BDC4 /* Utilities.m in Sources */,
+				5216E6CA1E0A74B900A3114F /* AMTumblrHud.m in Sources */,
+				524B10D61E04154500E8BDC4 /* VODCategories+CoreDataClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDEE141DE5C25000D80987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDEE1D1DE5C25100D80987 /* TapmadTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDEE1F1DE5C25100D80987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDEE281DE5C25100D80987 /* TapmadTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BDEE1A1DE5C25000D80987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BDEDFB1DE5C25000D80987 /* TapmadTV */;
+			targetProxy = 52BDEE191DE5C25000D80987 /* PBXContainerItemProxy */;
+		};
+		52BDEE251DE5C25100D80987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BDEDFB1DE5C25000D80987 /* TapmadTV */;
+			targetProxy = 52BDEE241DE5C25100D80987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52BDEE081DE5C25000D80987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BDEE091DE5C25000D80987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BDEE101DE5C25000D80987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BDEE111DE5C25000D80987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BDEE2A1DE5C25100D80987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Downloads/FacebookSDKs-iOS-4.18.0";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52BDEE2B1DE5C25100D80987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Downloads/FacebookSDKs-iOS-4.18.0";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BDEE2D1DE5C25100D80987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C546F52F1359589F49D598 /* Pods-TapmadTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TapmadTV/TapmadTV.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3R96S387P3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TapmadTV",
+				);
+				INFOPLIST_FILE = TapmadTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pitelevision.TapmadTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52BDEE2E1DE5C25100D80987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBFD44F7897AAB5C6DEB9E71 /* Pods-TapmadTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TapmadTV/TapmadTV.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3R96S387P3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TapmadTV",
+				);
+				INFOPLIST_FILE = TapmadTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pitelevision.TapmadTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52BDEE301DE5C25100D80987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapmadTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tapmad.TapmadTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapmadTV.app/TapmadTV";
+			};
+			name = Debug;
+		};
+		52BDEE311DE5C25100D80987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapmadTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tapmad.TapmadTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapmadTV.app/TapmadTV";
+			};
+			name = Release;
+		};
+		52BDEE331DE5C25100D80987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapmadTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tapmad.TapmadTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapmadTV;
+			};
+			name = Debug;
+		};
+		52BDEE341DE5C25100D80987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapmadTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tapmad.TapmadTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapmadTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BDEDF71DE5C25000D80987 /* Build configuration list for PBXProject "TapmadTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDEE2A1DE5C25100D80987 /* Debug */,
+				52BDEE2B1DE5C25100D80987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDEE2C1DE5C25100D80987 /* Build configuration list for PBXNativeTarget "TapmadTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDEE2D1DE5C25100D80987 /* Debug */,
+				52BDEE2E1DE5C25100D80987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDEE2F1DE5C25100D80987 /* Build configuration list for PBXNativeTarget "TapmadTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDEE301DE5C25100D80987 /* Debug */,
+				52BDEE311DE5C25100D80987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BDEE321DE5C25100D80987 /* Build configuration list for PBXNativeTarget "TapmadTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BDEE331DE5C25100D80987 /* Debug */,
+				52BDEE341DE5C25100D80987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BDEDF41DE5C25000D80987 /* Project object */;
+}

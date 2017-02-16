@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageHeader" id="U6b-Vx-4bR" customClass="ImageHeader">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="koc-Ap-yXn">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="koc-Ap-yXn" secondAttribute="height" multiplier="8:5" id="cGU-wz-nPG"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="koc-Ap-yXn" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="2zc-q8-SEh"/>
+                <constraint firstAttribute="trailing" secondItem="koc-Ap-yXn" secondAttribute="trailing" id="6z1-HO-LM9"/>
+                <constraint firstItem="koc-Ap-yXn" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="Cnf-nt-NvU"/>
+                <constraint firstAttribute="bottom" secondItem="koc-Ap-yXn" secondAttribute="bottom" id="dHb-tG-hf4"/>
+            </constraints>
+            <connections>
+                <outlet property="imgView" destination="koc-Ap-yXn" id="Sj3-eZ-Pnf"/>
+            </connections>
+            <point key="canvasLocation" x="-104" y="57"/>
+        </collectionReusableView>
+    </objects>
+</document>

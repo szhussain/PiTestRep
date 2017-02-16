@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Channel" representedClassName="Channel" syncable="YES" codeGenerationType="class">
+        <attribute name="isVideoChannel" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoAddedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoCategoryId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoEntityId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoImagePathLarge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoImageThumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoPackageId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoPosterPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoRating" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoStreamUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoStreamUrlLow" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoTotalViews" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="ChannelCategories" representedClassName="ChannelCategories" syncable="YES" codeGenerationType="class">
+        <attribute name="videoCategoryDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoCategoryId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="videoCategoryImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoCategoryName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChannelCategories" positionX="-54" positionY="135" width="128" height="105"/>
+        <element name="Channel" positionX="-45" positionY="144" width="128" height="270"/>
+    </elements>
+</model>
